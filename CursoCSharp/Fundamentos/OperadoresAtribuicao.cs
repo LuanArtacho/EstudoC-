@@ -19,9 +19,10 @@ namespace CursoCSharp.Fundamentos
 
             int a = 1;
             int b = a;
-
+            double joyce = 3.5;
+            Console.WriteLine(joyce);
             a++; // a = a + 1;
-            b--; // b - b - 1;
+            b--; // b = b - 1;
 
             Console.WriteLine($"{a} {b}");
 

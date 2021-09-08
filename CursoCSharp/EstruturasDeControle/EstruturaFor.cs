@@ -8,7 +8,7 @@ namespace CursoCSharp.EstruturasDeControle
     {
         public static void Executar()
         {
-            //for(int i = 1;i <= 10; i++)
+            //for (int i = 1; i <= 10; i++)
             //{
             //    Console.WriteLine($"O valor de i é {0}");
             //}
@@ -31,7 +31,7 @@ namespace CursoCSharp.EstruturasDeControle
 
             double media = tamanhoTurma > 0 ? somatorio / tamanhoTurma : 0;
             Console.WriteLine("Média da truma: {0}", media);
-
+         
         }
     }
 }
